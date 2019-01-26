@@ -1,0 +1,19 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  },
+  "SendGrid": {
+    "ApiKey": "CONFIGURE IN AZURE",
+    "FromMail": "CONFIGURE IN AZURE",
+    "FromName": "CONFIGURE IN AZURE",
+    "ToMail": "CONFIGURE IN AZURE"
+  },
+  "TrustedTimestampProviders": {
+    "OriginStamp": {
+      "Url": "CONFIGURE IN AZURE",
+      "ApiKey": "CONFIGURE IN AZURE"
+    }
+  }
+}
