@@ -1,4 +1,4 @@
-# Timestamp Service
+# az-timestamp: A Timestamping Service
 
 A simple and elegant Azure-based service for timestamping anything.
 
