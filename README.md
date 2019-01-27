@@ -22,6 +22,8 @@ For reference, a setting such as:
 
 should be configured in Application Settings as having a key of `Foo:Bar` and a value of `xyz`.
 
+The `TrustedTimestampProviders:OriginStamp:Url` setting should typically have a value of `https://api.originstamp.org/v3/timestamp/create`.
+
 You need to have SendGrid and OriginStamp API keys in order to use this service out of the box.
 
 Also, a storage account needs to be connected to the Azure Function app (Azure sometimes does this in the background when the Function App is created). In this storage account an Azure Table named `timestamp` and an Azure Queue named `timestamp-incoming` need to be created.
